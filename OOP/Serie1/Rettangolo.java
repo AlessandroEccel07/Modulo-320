@@ -1,7 +1,10 @@
 public class Rettangolo {
     public double latoMaggiore;
     public double latoMinore;
-
+    public Rettangolo() {
+        latoMaggiore = 5;
+        latoMinore = 10;
+    }
     public double area() {
         return latoMaggiore * latoMinore;
     }
