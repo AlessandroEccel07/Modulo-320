@@ -1,9 +1,9 @@
 public class Rettangolo {
     public double latoMaggiore;
     public double latoMinore;
-    public Rettangolo() {
-        latoMaggiore = 5;
-        latoMinore = 10;
+    public Rettangolo(double latoMaggiore,double latoMinore) {
+        this.latoMaggiore = latoMaggiore;
+        this.latoMinore = latoMinore;
     }
     public double area() {
         return latoMaggiore * latoMinore;
