@@ -10,7 +10,7 @@ public class Temperatura {
         }
     }
     public Temperatura() {
-        this.celsius  = ;
+        this.celsius  = celsius;
 
     }
     public String stato() {
